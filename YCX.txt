@@ -1,0 +1,486 @@
+trial1:-
+
+model: LLaMA 3 70B
+prompt:please can you generate a report about the company "microsoft" and its website is "https://www.microsoft.com/ar-eg" a,i want very accurate information about this company  which may include information on corporate structure, registration status, compliance details, and more.
+
+answer:Here is a JSON report about Microsoft Corporation:
+
+```
+[
+  {
+    "company_name": "Microsoft Corporation",
+    "website": "https://www.microsoft.com/ar-eg",
+    "details": {
+      "corporate_structure": {
+        "type": "Publicly traded company",
+        "industry": "Technology",
+        "sector": "Software"
+      },
+      "registration_status": {
+        "incorporated": "April 4, 1975",
+        "state": "Washington",
+        "country": "United States"
+      },
+      "compliance_details": {
+        "stock_exchange": "NASDAQ",
+        "stock_symbol": "MSFT",
+        "SEC_filings": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789019"
+      },
+      "headquarters": {
+        "address": "One Microsoft Way, Redmond, WA 98052-6399",
+        "phone": "+1 (425) 882-8080"
+      },
+      "leadership": {
+        "CEO": "Satya Nadella",
+        "Chairman": "Satya Nadella"
+      },
+      "products_and_services": [
+        "Windows operating system",
+        "Office software suite",
+        "Azure cloud computing platform",
+        "Dynamics 365 business applications",
+        "Xbox gaming console"
+      ],
+      "employees": "approximately 181,000 (as of 2022)",
+      "revenue": "USD 231.7 billion (2022)"
+    }
+  }
+]
+```
+
+Please note that the information provided is accurate to the best of my knowledge, but it may not be up-to-date or exhaustive. For more detailed and current information, I recommend visiting Microsoft"s official website, investor relations website, or searching for publicly available reports and filings.
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+trial2:-
+model:LLaMA 3 8B
+prompt:please can you generate a report about the company "microsoft" and its website is "https://www.microsoft.com/ar-eg" a,i want very accurate information about this company  which may include information on corporate structure, registration status, compliance details, and more.
+answer:
+Here is the report on Microsoft Corporation:
+
+```
+[
+  {
+    "company_name": "Microsoft Corporation",
+    "website": "https://www.microsoft.com/ar-eg",
+    "details": [
+      {
+        "corporate_structure": "Microsoft Corporation is a publicly traded company listed on the NASDAQ stock exchange under the ticker symbol MSFT.",
+        "registration_status": "Microsoft Corporation is registered in the state of Washington, USA, and has its headquarters in Redmond, Washington.",
+        "compliance_details": "Microsoft Corporation is subject to the laws and regulations of the United States, including the Securities Exchange Act of 1934, the Sarbanes-Oxley Act, and the Dodd-Frank Wall Street Reform and Consumer Protection Act.",
+        "founders": "Bill Gates and Paul Allen",
+        "founding_date": "April 4, 1975",
+        "products_services": "Microsoft is a multinational technology company that develops, manufactures, licenses, and supports a wide range of software products, services, and devices. Its products and services include the Windows operating system, Office software suite, Azure cloud computing platform, and Xbox gaming console, among others.",
+        "revenue": "In 2020, Microsoft Corporation reported revenue of $242.1 billion.",
+        "employees": "As of 2020, Microsoft Corporation had approximately 163,000 employees worldwide."
+      }
+    ]
+  }
+]
+```
+
+Note: The information provided is accurate to the best of my knowledge, but it may not be exhaustive or up-to-date. For more detailed and current information, I recommend visiting the company"s official website or reviewing publicly available financial reports and regulatory filings.
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+trial3:
+
+model:LLaMA 3.3 70B Versatile
+prompt:please can you generate a report about the company "microsoft" and its website is "https://www.microsoft.com/ar-eg" a,i want very accurate information about this company  which may include information on corporate structure, registration status, compliance details, and more.
+answer:
+
+```
+[
+  {
+    "company_name": "Microsoft",
+    "website": "https://www.microsoft.com/ar-eg",
+    "details": {
+      "corporate_structure": "Microsoft is a multinational technology company with a complex corporate structure, consisting of various subsidiaries and divisions, including Microsoft Corporation, Microsoft Research, Microsoft Studios, and more.",
+      "registration_status": "Microsoft is a publicly traded company, registered with the Securities and Exchange Commission (SEC) in the United States, with the ticker symbol MSFT.",
+      "compliance_details": "Microsoft complies with various regulations and standards, including the General Data Protection Regulation (GDPR), the Health Insurance Portability and Accountability Act (HIPAA), and the Payment Card Industry Data Security Standard (PCI DSS).",
+      "founders": "Microsoft was founded on April 4, 1975, by Bill Gates and Paul Allen.",
+      "headquarters": "Microsoft"s headquarters is located in Redmond, Washington, United States.",
+      "products_and_services": "Microsoft offers a wide range of products and services, including operating systems (Windows), productivity software (Office), cloud computing services (Azure), gaming consoles (Xbox), and more.",
+      "revenue": "Microsoft"s annual revenue is over $230 billion USD, with a net income of over $70 billion USD.",
+      "employees": "Microsoft has over 180,000 employees worldwide, with a diverse workforce spanning across various countries and regions.",
+      "mission_statement": "Microsoft"s mission statement is "to empower every person and organization on the planet to achieve more".",
+      "values": "Microsoft"s values include a growth mindset, a focus on innovation, a commitment to diversity and inclusion, and a passion for making a positive impact on society."
+    }
+  }
+]
+```
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+trial4:
+
+model:Mistral Saba 24B
+
+prompt:please can you generate a report about the company "microsoft" and its website is "https://www.microsoft.com/ar-eg" a,i want very accurate information about this company  which may include information on corporate structure, registration status, compliance details, and more.
+answer:
+Sure, here is a JSON array with the requested information about Microsoft:
+
+```json
+[
+  {
+    "company_name": "Microsoft",
+    "website": "https://www.microsoft.com/ar-eg",
+    "details": {
+      "corporate_structure": {
+        "founded": "April 4, 1975",
+        "founders": ["Bill Gates", "Paul Allen"],
+        "headquarters": "Redmond, Washington, USA",
+        "CEO": "Satya Nadella",
+        "board_of_directors": [
+          "Satya Nadella (CEO)",
+          "John W. Stanton",
+          "Terry Myerson",
+          "Amanda Blumenfeld",
+          "Charles E. Noski",
+          "John W. Stanton",
+          "Terry Myerson",
+          "Amanda Blumenfeld",
+          "Charles E. Noski",
+          "John W. Stanton",
+          "Terry Myerson",
+          "Amanda Blumenfeld",
+          "Charles E. Noski"
+        ]
+      },
+      "registration_status": {
+        "legal_name": "Microsoft Corporation",
+        "registration_number": "Not publicly disclosed",
+        "country_of_incorporation": "United States",
+        "stock_exchange": "NASDAQ",
+        "ticker_symbol": "MSFT"
+      },
+      "compliance_details": {
+        "regulatory_compliance": "Microsoft adheres to various regulatory requirements including GDPR, CCPA, and other data protection laws.",
+        "certifications": [
+          "ISO/IEC 27001",
+          "ISO/IEC 27017",
+          "ISO/IEC 27018",
+          "SOC 1, 2, and 3"
+        ],
+        "environmental_compliance": "Microsoft has committed to becoming carbon negative by 2030 and aims to remove all carbon the company has emitted either directly or by electrical consumption since its founding by 2050."
+      },
+      "additional_information": {
+        "revenue": "As of the latest fiscal year, Microsoft"s revenue is over $168 billion.",
+        "employees": "Approximately 221,000 employees worldwide.",
+        "major_products_and_services": [
+          "Windows",
+          "Office",
+          "Azure",
+          "Xbox",
+          "Surface",
+          "LinkedIn",
+          "Skype",
+          "Teams"
+        ]
+      }
+    }
+  }
+]
+```
+
+This JSON object provides a comprehensive overview of Microsoft, including its corporate structure, registration status, compliance details, and additional relevant information.
+
+#####################################################################################################################################################################################
+Analysis:
+
+The same prompt was sent to all models, and the best-performing model in terms of data accuracy and freshness was Mistral Saba 24B. This model provided the most comprehensive and up-to-date information about the company, covering corporate structure, registration status, compliance details, financial data, and key leadership figures.
+
+Mistral Saba 24B outperformed the other models by delivering a more detailed, accurate, and recent report, making it the best choice for retrieving updated corporate information.
+
+
+#####################################################################################################################################################################################
+trial5:
+
+model:Mistral Saba 24B
+prompt:please can you generate a report about the company "microsoft" and its website is "https://www.microsoft.com/ar-eg" a,i want very accurate information about this company  which may include information on corporate structure, registration status, compliance details, and more. please i dont want extra information i just want the json file like {
+"company_name":"",
+"Company Website":"Company Website"
+
+}.
+
+answer:
+
+	company_name	website	corporate_structure	registration_status	compliance_details
+0	Microsoft	https://www.microsoft.com/ar-eg	{"CEO":"Satya Nadella","board_of_directors":["Satya Nadella","John W. Thompson","Amanda N. Blumenfeld","Charles E. Noski","Terry J. Myerson","Peggy Johnson","Reid S. S. Ford","Ahmad Nasseri","Emma Walmsley","John W. Stanton","Suzanne C. Clark","Arvind Krishna"],"founded":"1975","headquarters":"Redmond, Washington, USA"}	{"incorporated_in":"Washington, USA","stock_exchange":"NASDAQ","ticker_symbol":"MSFT"}	{"certifications":["ISO 27001","ISO 27017","ISO 27018","SOC 1, 2, and 3"],"regulatory_compliance":"Microsoft adheres to various regulatory requirements including GDPR, CCPA, and other data protection laws."}
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+trial6:
+
+model:LLaMA 3.3 70B Versatile
+
+prompt:please can you generate a report about the company "microsoft" and its website is "https://www.microsoft.com/ar-eg" a,i want very accurate information about this company  which may include information on corporate structure, registration status, compliance details, and more. please i dont want extra information i just want the json file like {
+"company_name":"",
+"Company Website":"Company Website"
+
+}.
+
+answer:
+
+
+
+```
+[
+  {
+    "company_name": "Microsoft",
+    "website": "https://www.microsoft.com/ar-eg"
+  }
+]
+```
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+trial7:
+
+model:LLaMA 3 8B
+
+
+prompt:please can you generate a report about the company "microsoft" and its website is "https://www.microsoft.com/ar-eg" a,i want very accurate information about this company  which may include information on corporate structure, registration status, compliance details, and more. please i dont want extra information i just want the json file like {
+"company_name":"",
+"Company Website":"Company Website"
+
+}.
+
+answer:
+
+
+
+
+
+
+
+Here is the JSON report for Microsoft:
+
+[
+  {
+    "company_name": "Microsoft Corporation",
+    "Company Website": "https://www.microsoft.com/ar-eg",
+    "Corporate Structure": {
+      "Headquarters": "One Microsoft Way, Redmond, WA 98052-6399, USA",
+      "CEO": "Satya Nadella",
+      "Founded": "1975"
+    },
+    "Registration Status": {
+      "State": "Delaware, USA",
+      "Registration Number": "3456789",
+      "Date of Incorporation": "1975-04-04"
+    },
+    "Compliance Details": {
+      "NASDAQ": "MSFT",
+      "S&P 500 Index": "Included",
+      "FTSE 100 Index": "Included"
+    }
+  }
+]
+
+Please note that the information provided is accurate to the best of my knowledge, but it may not be up-to-date or exhaustive.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+trial8:
+
+model:LLaMA 3 70B
+
+
+
+prompt:please can you generate a report about the company "microsoft" and its website is "https://www.microsoft.com/ar-eg" a,i want very accurate information about this company  which may include information on corporate structure, registration status, compliance details, and more. please i dont want extra information i just want the json file like {
+"company_name":"",
+"Company Website":"Company Website"
+
+}.
+
+answer:
+
+Here is the report about Microsoft in the requested JSON format:
+
+```
+[
+  {
+    "company_name": "Microsoft Corporation",
+    "Company Website": "https://www.microsoft.com/ar-eg",
+    "Founded": "April 4, 1975",
+    "Founder": "Bill Gates, Paul Allen",
+    "Headquarters": "Redmond, Washington, USA",
+    "Industry": "Technology, Computer Software",
+    "Type": "Public",
+    "Registration Status": "Active",
+    "Compliance Details": "Listed on NASDAQ under MSFT",
+    "Corporate Structure": "Multinational technology corporation",
+    "CEO": "Satya Nadella"
+  }
+]
+```
+
+Please note that the information provided is accurate to the best of my knowledge, but it"s always recommended to verify the information through official sources or recent news articles for the most up-to-date details.
+
+
+
+
+
+
+#####################################################################################################################################################################################
+Analysis:
+
+still the same model Mistral Saba 24B
+
+Best-performing model
+
+Provided detailed and structured data, including CEO, board members, incorporation details, stock exchange information, and compliance certifications.
+
+Output was rich, relevant, and up-to-date, making it the most suitable choice for accurate corporate data retrieval.
+
+other model either produce not json files or retrieve less information.
+
+#####################################################################################################################################################################################
+
+
+
+
+trial9:
+
+model:LLaMA 3 70B
+
+
+
+prompt:please can you generate a report about the company "microsoft" and its website is "https://www.microsoft.com/ar-eg" a,i want very accurate information about this company  which may include information on corporate structure, registration status, compliance details, market trends, legal history, or operational details,and more. please i dont want extra information i just want the json file like {
+"company_name":"",
+"Company Website":"Company Website"
+
+}.
+
+answer:
+
+
+Here is the report on Microsoft in the requested JSON format:
+
+```
+[
+  {
+    "company_name": "Microsoft Corporation",
+    "Company Website": "https://www.microsoft.com/ar-eg",
+    "Registration Status": "Active",
+    "Corporate Structure": "Publicly traded company (NASDAQ: MSFT)",
+    "Founded": "April 4, 1975",
+    "Founders": "Bill Gates, Paul Allen",
+    "Headquarters": "Redmond, Washington, USA",
+    "Industry": "Technology, Software",
+    "Revenue": "Over $231 billion (2020)",
+    "Employees": "Over 181,000 (2020)",
+    "Description": "Microsoft is a multinational technology company that develops, manufactures, licenses, and supports a wide range of software products, services, and devices."
+  }
+]
+```
+
+Please note that the information provided is accurate to the best of my knowledge, but it"s limited to the scope of publicly available data. If you need more detailed or sensitive information, it may require additional research or access to proprietary databases.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+trial10:
+
+model:LLaMA 3 8B
+
+
+
+
+prompt:please can you generate a report about the company "microsoft" and its website is "https://www.microsoft.com/ar-eg" a,i want very accurate information about this company  which may include information on corporate structure, registration status, compliance details, market trends, legal history, or operational details,and more. please i dont want extra information i just want the json file like {
+"company_name":"",
+"Company Website":"Company Website"
+
+}.
+
+answer:
+
+Here is the JSON report for Microsoft:
+
+```
+[
+  {
+    "company_name": "Microsoft Corporation",
+    "Company Website": "https://www.microsoft.com/ar-eg",
+    "Company Overview": "Microsoft is an American multinational technology corporation that develops, manufactures, licenses, and supports a wide range of software products, services, and devices.",
+    "Corporate Structure": "Microsoft is a publicly traded company listed on the NASDAQ stock exchange under the ticker symbol MSFT. It is led by Satya Nadella as its current CEO.",
+    "Registration Status": "Microsoft is registered in the state of Washington, USA, and has its headquarters in Redmond, Washington.",
+    "Compliance Details": "Microsoft is subject to various laws and regulations, including the Sarbanes-Oxley Act, the General Data Protection Regulation (GDPR), and the California Consumer Privacy Act (CCPA).",
+    "Market Trends": "Microsoft is a leading player in the technology industry, with a market capitalization of over $2 trillion. It has a strong presence in the cloud computing, artificial intelligence, and gaming markets."
+  }
+]
+```
+
+Note: The information provided is accurate as of my knowledge cutoff date, but please verify it with the company"s official website or other reliable sources for the most up-to-date information.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+trial11:
+
+model:LLaMA 3.3 70B Versatile
+
+
+
+
+
+prompt:please can you generate a report about the company "microsoft" and its website is "https://www.microsoft.com/ar-eg" a,i want very accurate information about this company  which may include information on corporate structure, registration status, compliance details, market trends, legal history, or operational details,and more. please i dont want extra information i just want the json file like {
+"company_name":"",
+"Company Website":"Company Website"
+
+}.
+
+answer:
+
+```
+[
+  {
+    "company_name": "Microsoft",
+    "website": "https://www.microsoft.com/ar-eg"
+  }
+]
+```
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+trial12:
+
+model:Mistral Saba 24B
+
+
+
+prompt:please can you generate a report about the company "microsoft" and its website is "https://www.microsoft.com/ar-eg" a,i want very accurate information about this company  which may include information on corporate structure, registration status, compliance details, market trends, legal history, or operational details,and more. please i dont want extra information i just want the json file like {
+"company_name":"",
+"Company Website":"Company Website"
+
+}.
+
+answer:
+
+	company_name	website	corporate_structure	registration_status	compliance_details	market_trends	legal_history	operational_details
+0	Microsoft	https://www.microsoft.com/ar-eg	{"CEO":"Satya Nadella","employees":"221,000 (2022)","founded":"April 4, 1975","founders":["Bill Gates","Paul Allen"],"headquarters":"Redmond, Washington, USA","revenue":"168.1 billion USD (2022)"}	{"country_of_registration":"United States","incorporation_date":"April 4, 1975","legal_name":"Microsoft Corporation","registration_number":"Not publicly disclosed"}	{"compliance_standards":["GDPR","CCPA","ISO/IEC 27001"],"regulatory_bodies":["SEC (U.S. Securities and Exchange Commission)","FTC (Federal Trade Commission)","EU Commission"]}	{"industry":"Technology","key_products":["Windows","Office","Azure","Xbox","Surface"],"market_position":"Leading provider of software, cloud services, and hardware"}	{"major_lawsuits":[{"case_name":"United States v. Microsoft","outcome":"Settled in 2001","year":1998},{"case_name":"Microsoft v. Motorola","outcome":"Settled in 2012","year":2011}],"regulatory_actions":[{"action":"EU antitrust fine","amount":"497 million EUR","year":2004},{"action":"EU antitrust fine","amount":"561 million EUR","year":2013}]}	{"global_presence":"Over 190 countries","key_partnerships":["Apple","Amazon","Google"],"major_subsidiaries":["LinkedIn","Skype","GitHub"]}
+
+#####################################################################################################################################################################################
+Analysis:
+
+still the same model Mistral Saba 24B
+
+Best-performing model
+
+Provided detailed and structured data, including CEO, board members, incorporation details, stock exchange information, and compliance certifications.
+
+Output was rich, relevant, and up-to-date, making it the most suitable choice for accurate corporate data retrieval.
+
+other model either produce not json files or retrieve less information.
+
+#####################################################################################################################################################################################
+conclusion:
+the best model is :Mistral Saba 24B
+
+
+
+
+
